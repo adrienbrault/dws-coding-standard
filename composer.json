@@ -27,5 +27,10 @@
     "require-dev": {
         "phpunit/phpunit": "~3.7.19",
         "lib-libxml": "*"
+    },
+    "autoload":{
+        "classmap": [
+            "DWS"
+        ]
     }
 }
